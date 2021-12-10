@@ -40,8 +40,6 @@ let arith_var_name (order : binop_order) (depth : int) : string =
   in
   "_" ^ varname ^ (string_of_int depth)
 
-(* TODO?: make list backwards for speed?? *)
-
 (** Precondition: [depth] >= 0 *)
 let rec eval_a (depth : int) (a : aexp) : ir_com list = 
   let result_var = arith_var_name BinResult depth in
