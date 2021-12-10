@@ -8,4 +8,5 @@ language has if/else, while, assignment, some arithmetic, and printing.
 The compiler turns it into an intermediate representation
 of my own making ("L intermediate language," or "Lil"), which can be output
 as its own .lil file or as a C file filled with assignment and gotos.
-
+Naming the compiler after the IR doesn't make much sense, but I think it's a
+nice pun given the fact that the language and IR are both quite small.
