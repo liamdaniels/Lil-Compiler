@@ -1,0 +1,14 @@
+if 0,
+    print 1;
+    done
+else
+    x := 2;
+    while x - 1, 
+        print x; 
+        x := x - 1; 
+        done
+    elihw;
+    done
+fi;
+print 3;
+done
